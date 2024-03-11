@@ -1,14 +1,28 @@
-/* SignUpForm.css (or your preferred CSS file) */
+.signup-container {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #2f5651;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #2f5651;
+  border-radius: 5px;
+  max-width: 600px;
+}
+
 
 .signup-container {
+  margin-top: 1140px; /* Adjusted margin top for space between header and signup container */
   text-align: center;
-  margin-top: 20px; /* Adjusted margin top for space between header and signup container */
   color: #2f5651;
   background-color: #f0f0f0;
   padding: 20px;
   margin: 20px;
   border: 1px solid #2f5651;
   border-radius: 5px;
+  max-width: 500px;
 }
 
 h2 {
@@ -36,8 +50,8 @@ h2 {
   box-sizing: border-box;
 }
 
-.signup-button {
-  background-color: green;
+.submit-button {
+  background-color: darkgreen; /* Updated button color to darkgreen */
   color: white;
   padding: 8px;
   cursor: pointer;
@@ -47,11 +61,16 @@ h2 {
   margin-top: 8px;
 }
 
-.signup-button:hover {
-  background-color: darkgreen;
+.submit-button:hover {
+  background-color: #2f5651; /* Darker color on hover */
 }
 
-.login-link {
+.signup-link a {
   color: #2f5651;
-  margin-top: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
 }

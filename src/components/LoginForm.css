@@ -1,16 +1,17 @@
 /* LoginForm.css (or your preferred CSS file) */
 
 .login-container {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
-  margin-top: 20px; /* Adjusted margin top for space between header and signup container */
-  color: #3579;
+  color: #2f5651;
   background-color: #f0f0f0;
-  margin: 5px; /* Adjusted margin */
+  padding: 20px;
   border: 1px solid #2f5651;
-  border-radius: 5px; /* Adjusted border radius */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: 0 auto; 
+  border-radius: 5px;
+  max-width: 600px;
 }
 
 h2 {

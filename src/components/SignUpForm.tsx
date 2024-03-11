@@ -5,9 +5,8 @@ import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import './SignUpForm.css';
-
 
 const SignUpForm: React.FC = () => {
   const [username, setUsername] = useState('');
@@ -16,7 +15,6 @@ const SignUpForm: React.FC = () => {
   const [phoneNumber, setPhoneNumber] = useState('');
   const navigate = useNavigate();
   const [showPassword, setShowPassword] = useState<boolean>(false);
-
 
   const validateEmail = (email: string): boolean => {
     // Simple email validation using a regular expression
@@ -51,10 +49,8 @@ const SignUpForm: React.FC = () => {
         onClose: () => {
           // Navigate to the login page after the toast message disappears
           navigate('/login');
-
         },
       });
-
     } catch (error) {
       console.error('Axios error:', error);
 
@@ -68,6 +64,7 @@ const SignUpForm: React.FC = () => {
       }
     }
   };
+
   // Toggle password visibility
   const togglePasswordVisibility = () => {
     setShowPassword((prevShowPassword) => !prevShowPassword);
@@ -134,12 +131,9 @@ const SignUpForm: React.FC = () => {
         </button>
       </form>
 
-      <p>
-        Already have an account?{' '}
-        <a href="/login" className="link">
-          Login
-        </a>
-      </p>
+      <div className="signup-link">
+        Already have an account? <Link to="/login">Login</Link>
+      </div>
 
       {/* Toast container for displaying messages */}
       <ToastContainer />

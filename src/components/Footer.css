@@ -23,15 +23,14 @@ footer {
   }
   
   .powered-by p {
-    margin-left: 8px; /* Adjust the margin as needed */
+    margin-left: -16px; /* Adjust the margin as needed */
     margin-bottom: 0;
     font-weight: bold;
     color: #666;
   }
   
   .powered-by-icon {
-    width: 20px;
+    width: 30px;
     height: 20px;
-    margin-right: 8px;
+    margin-left: -4px; /* This will move the icon to the left */
   }
-  
