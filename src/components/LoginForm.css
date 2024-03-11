@@ -1,0 +1,89 @@
+/* LoginForm.css (or your preferred CSS file) */
+
+.login-container {
+  text-align: center;
+  margin-top: 20px; /* Adjusted margin top for space between header and signup container */
+  color: #3579;
+  background-color: #f0f0f0;
+  margin: 5px; /* Adjusted margin */
+  border: 1px solid #2f5651;
+  border-radius: 5px; /* Adjusted border radius */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 0 auto; 
+}
+
+h2 {
+  color: #2f5651; /* Set the color for the h2 element */
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 2px; /* Adjusted margin bottom */
+  font-size: 12px; /* Adjusted font size */
+  font-weight: bold;
+  color: #333;
+  color: #2f5651;
+  font-size: 14px; /* Adjusted font size */
+  margin-top: 4px; /* Adjusted margin top */
+}
+
+.form-input {
+  width: 100%;
+  padding: 4px; /* Adjusted padding */
+  margin-bottom: 8px; /* Adjusted margin bottom */
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 12px; /* Adjusted font size */
+  color: #333;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+}
+
+.login-button {
+  background-color: #2f5651;
+  color: white;
+  padding: 6px; /* Adjusted padding */
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  font-size: 12px; /* Adjusted font size */
+  margin-bottom: 8px; /* Adjusted margin bottom */
+  font-size: 14px; /* Adjusted font size */
+  margin-top: 6px; /* Adjusted margin top */
+}
+
+.login-button:hover {
+  background-color: darkgreen;
+}
+
+.login-button {
+  background-color: green;
+  color: white;
+  padding: 6px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 6px;
+}
+
+.login-button:hover {
+  background-color: darkgreen;
+}
+
+.signup-link {
+  color: #2f5651;
+  margin-top: 8px;
+}
+
+.signup-link a {
+  color: #2f5651;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}

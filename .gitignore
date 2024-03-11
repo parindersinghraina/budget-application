@@ -21,3 +21,15 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Build
+/node_modules
+/dist
+
+# Files
+config.json
+
+# Mac File
+-.DS_Stroe
++.DS_Store
+/.DS_Store
